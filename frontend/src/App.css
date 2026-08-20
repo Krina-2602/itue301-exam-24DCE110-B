@@ -1,0 +1,25 @@
+.navbar {
+  display: flex;
+  gap: 24px;
+  padding: 16px 32px;
+  border-bottom: 1px solid #2a2a2a;
+  background-color: #1a1a1a;
+}
+
+.navbar a {
+  font-weight: 600;
+  font-size: 15px;
+  padding: 6px 4px;
+}
+
+.page-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 32px;
+}
+
+.page-title {
+  text-align: center;
+  margin-bottom: 32px;
+  font-size: 28px;
+}

@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Roboto, Arial, sans-serif;
+  background-color: #121212;
+  color: #e0e0e0;
+}
+
+h1, h2, h3 {
+  color: #ffffff;
+}
+
+a {
+  color: #bb86fc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 20px;
+  background-color: #bb86fc;
+  color: #121212;
+  font-weight: 600;
+  font-size: 14px;
+  transition: background-color 0.2s ease;
+}
+
+button:hover {
+  background-color: #9a67ea;
+}
+
+input {
+  background-color: #1e1e1e;
+  border: 1px solid #333;
+  border-radius: 6px;
+  padding: 8px 12px;
+  color: #e0e0e0;
+  font-size: 14px;
+}
+
+input:focus {
+  outline: none;
+  border-color: #bb86fc;
+}
